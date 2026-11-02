@@ -135,8 +135,8 @@ Coordinate multiple agents on a single feature area:
 | `/team-polish` | performance-analyst + technical-artist + sound-designer + qa-tester |
 | `/team-audio` | audio-director + sound-designer + technical-artist + gameplay-programmer |
 | `/team-level` | level-designer + narrative-director + world-builder + art-director + systems-designer + qa-tester |
-| `/team-live-ops` | live-ops-designer + economy-designer + community-manager + analytics-engineer |
-| `/team-qa` | qa-lead + qa-tester + gameplay-programmer + producer |
+| `/team-live-ops` | live-ops-designer + economy-designer + community-manager + analytics-engineer + writer |
+| `/team-qa` | qa-lead + qa-tester |
 
 ## Overlap with Claude Code's bundled skills
 
