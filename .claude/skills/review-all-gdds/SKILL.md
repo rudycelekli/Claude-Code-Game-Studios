@@ -47,9 +47,11 @@ Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md`
 **`workflow`** per GDD (per `.claude/docs/workflow-modes.md`): each GDD validates
 against its effective tier — the project value, overridden per system by the
 `system_overrides` row for that system when the block lists one. At `full`, validate all 8
-sections across all GDDs. At `standard`, validate the 5 required sections;
-optional sections (Player Fantasy, Tuning Knobs, conditional Formulas) are
-surfaced as advisory only. At `minimal`, this skill is not applicable (no GDDs).
+sections across all GDDs. At `standard`, validate the 5 required sections,
+plus Formulas for every GDD whose system defines numeric rules (rates, curves,
+thresholds, costs, damage, drop weights — the test in `.claude/rules/design-docs.md`;
+the system's category is a hint, never the test); Player Fantasy and Tuning Knobs
+are surfaced as advisory only. At `minimal`, this skill is not applicable (no GDDs).
 
 ## Phase 1: Load Everything
 

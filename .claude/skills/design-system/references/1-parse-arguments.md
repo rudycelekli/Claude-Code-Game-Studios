@@ -52,8 +52,9 @@ existing `.md` file in `design/gdd/`, enter **retrofit mode**:
    headings): Overview, Player Fantasy, Detailed Design/Rules, Formulas,
    Edge Cases, Dependencies, Tuning Knobs, Acceptance Criteria.
    **Which of them are *required* depends on the effective tier** (§1) — at
-   `standard` only 5 are, plus Formulas for math categories, and Player Fantasy
-   and Tuning Knobs are skipped **by design**. Report an absent section as a gap
+   `standard` only 5 are, plus Formulas when the system defines numeric rules
+   (the test in §1 below — the category is a hint, not the test), and Player
+   Fantasy and Tuning Knobs are skipped **by design**. Report an absent section as a gap
    only when the tier requires it; otherwise list it as available-to-add. Calling
    all 8 required here reports two by-design-absent sections as gaps on every
    `standard` project.
