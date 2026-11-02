@@ -76,7 +76,7 @@ Silently ignoring it would leave an override that does nothing, unnoticed.
 
 > **Checked where GDDs are expected to already exist — not by the skill that
 > writes them.** `/gate-check` is the single implementing site (see
-> `.claude/skills/gate-check/SKILL.md` §"Per-system overrides"), and it runs at a
+> `.claude/skills/gate-check/references/2b-workflow-tier.md` §"Per-system overrides"), and it runs at a
 > phase boundary, by which point every in-scope GDD should be on disk. An
 > unmatched key there is genuinely suspicious.
 >

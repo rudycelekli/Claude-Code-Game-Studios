@@ -4,8 +4,9 @@
 
 Agent: `lead-programmer` | Model tier: Sonnet
 
-**Trigger**: After a dev story is implemented (`/dev-story`, `/story-done`), or
-as part of `/code-review`
+**Trigger**: After a dev story is implemented — `/story-done` Phase 6 runs it
+before marking the story Complete, unless the review mode skips skill gates.
+`/dev-story` and `/code-review` do not spawn it
 
 **Context to pass**:
 - Implementation file paths
